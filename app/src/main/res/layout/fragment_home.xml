@@ -20,4 +20,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="    준석이의 여자친구가 궁금하면 버튼을 눌러봐요"
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/nav_view"
+            app:layout_constraintHorizontal_bias="0.496" app:layout_constraintVertical_bias="0.396"
+            android:layout_marginTop="316dp"/>
+    <Button
+            android:id="@+id/button"
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/nav_view"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.516"
+            android:layout_marginTop="348dp" tools:ignore="NotSibling"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

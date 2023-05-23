@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
         // new Button
-        button1 = (Button) findViewById(R.id.button2);
+        button1 = (Button) findViewById(R.id.button);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "김준석 \n\uD83D\uDC9B 명서", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "명서입니다.", Toast.LENGTH_SHORT).show();
             }
         });
     }
